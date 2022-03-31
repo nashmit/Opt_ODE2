@@ -2,7 +2,7 @@
 Optimization for ODE2 2021-2022
 
 # Homework 2 
-requires special attention as I had to make direct changes to box2d code to make it work.
+requires special attention as I had to make direct changes to box2d code to make it work due to time limitation (which is not available in this repo )
 
 
 conda required modules:
