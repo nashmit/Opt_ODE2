@@ -3,7 +3,7 @@ Optimization for ODE2 2021-2022
 
 
 conda required modules
-# Name                    Version                   Build  Channel
+
 anyio                     3.5.0                    pypi_0    pypi
 argon2-cffi               21.3.0                   pypi_0    pypi
 argon2-cffi-bindings      21.2.0                   pypi_0    pypi
