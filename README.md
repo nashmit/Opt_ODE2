@@ -1,8 +1,12 @@
 # Opt_ODE2
 Optimization for ODE2 2021-2022
 
+Homework 2 requires special attention as I had to make direct changes to box2d code to make it work.
 
-conda required modules
+
+conda required modules:
+
+
 
 anyio                     3.5.0                    pypi_0    pypi
 argon2-cffi               21.3.0                   pypi_0    pypi
