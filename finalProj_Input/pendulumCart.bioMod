@@ -1,0 +1,35 @@
+version 4
+
+segment Seg1
+    translations	y
+    rotations	x
+    //ranges
+    //    -1 5
+    //    -2*pi 2*pi
+    mass 5
+    inertia
+        0.0391  0.0000	0.0000
+	    0.0000	0.0335	-0.0032
+	    0.0000	-0.0032	0.0090
+    com  -0.0005 0.0688 -0.9542
+    meshfile mesh/pendulum.STL
+    externalforceindex 0
+endsegment
+
+    // Marker 1
+    //marker marker_1
+    //    parent Seg1
+    //    position 0 0 0
+    //endmarker
+
+    // Marker 2
+    //marker marker_2
+    //    parent Seg1
+    //    position -0.0005 0.0688 -0.9542
+    //endmarker
+
+    // Marker 3
+    marker marker_3
+        parent Seg1
+        position -0.0005 0.0688 0
+    endmarker

@@ -1,0 +1,8 @@
+digraph G {
+rankdir=RL;
+1934775795728 [label="pow(| <f0> | , | <f1> |)", shape=Mrecord];
+1934775794128 -> 1934775795728:f0;
+1932777451376 -> 1934775795728:f1;
+1932777451376 [color="#990000", label=x, shape=rectangle];
+1934775794128 [color="#009900", label="2.71", shape=rectangle];
+}
